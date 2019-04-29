@@ -126,3 +126,5 @@ class InstaComents(object):
 			coment_field.send_keys(f'@{" @".join(random.choices(self.users_list, k=quantity_user_for_coment))}')
 			coment_field.send_keys(Keys.ENTER)
 			time.sleep(3)
+
+								   
