@@ -20,7 +20,3 @@ _ **quantity_user_for_coment: int** - quantity of users per comment.
 selenium and chromedriver is required  
 install selenium - pip install selenium  
 download chromedriver - http://chromedriver.chromium.org/downloads  
-
-## Developers
-- .
-- .
