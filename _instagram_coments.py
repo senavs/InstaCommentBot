@@ -123,6 +123,6 @@ class InstaComents(object):
                 coment_field = self.driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div/article/div[2]/section[3]/div/form/textarea')
                 coment_field.click()
 
-            coment_field.send_keys(f'@{" @".join(random.choices(self.users_list, k=quantity_user_for_coment))}')
+            coment_field.send_keys(f'@{" @".join(random.choices(self.users_list, k=quantity_user_for_coment))} ')
             coment_field.send_keys(Keys.ENTER)
             time.sleep(3)
